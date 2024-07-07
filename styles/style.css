@@ -1,0 +1,71 @@
+.dark{
+    color: black;
+    opacity: 0.7;
+}
+.open-sans-normal {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  font-variation-settings:
+    "width" 100;
+}
+.btn-primary{
+    padding: 18px 35px;
+    color: rgb(255, 255, 255);
+    font-size: 25px;
+    font-weight: bold;
+    border-radius: 8px;
+    background: orange;
+    border: none;
+}
+nav ul{
+    display: flex;
+    align-items: center;
+}
+nav{
+    display: flex;
+   align-items: center;
+   justify-content: space-between;
+   margin: 0px 100px;
+}
+.nav-title{
+    font-weight: 800;
+    font-size: 45px;
+    
+}
+.text-primary{
+    color: orange;
+}
+nav  ul li{
+   list-style: none;
+   margin-right: 50px;
+}
+.header{
+    background-image: url('../images/developer.png'),url('../images/header_bg.png');
+    background-repeat: no-repeat;
+   background-position: top left ,bottom right;
+}
+nav li a{
+    text-decoration: none;
+    font-size: 20px;
+}
+.banner{
+   display: flex;
+   justify-content: space-between;
+   margin: 0px 35px 0px 200px;
+}
+.banner-greet{
+  font-size: 45px;
+  font-family: 600;
+}
+.banner-title{
+    font-weight: bold;
+    font-size: 85px;
+}
+.banner-content{
+    width: 580px;
+    
+}
+.banner-prf-pic{
+    width: 580px;
+}
