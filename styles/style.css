@@ -18,6 +18,20 @@
     background: orange;
     border: none;
 }
+.section-bg{
+    background-color: rgb(245, 233, 209);
+    opacity: 0.8;
+}
+.section-title{
+    font-size: 46px;
+    font-weight: bold;
+    opacity: 0.8;
+}
+.section-descript{
+    font-size: 18px;
+    opacity: 0.8;
+
+}
 nav ul{
     display: flex;
     align-items: center;
@@ -27,6 +41,7 @@ nav{
    align-items: center;
    justify-content: space-between;
    margin: 0px 100px;
+
 }
 .nav-title{
     font-weight: 800;
@@ -68,4 +83,22 @@ nav li a{
 }
 .banner-prf-pic{
     width: 580px;
+}
+.about{
+    border-radius: 10px;
+    padding: 130px 150px;
+    text-align: center;
+    margin-top: 130px;
+}
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+.item-descript{
+    font-weight: 600;
+}
+.about-items{
+    font-size: 20px;
+    display: flex;
+    justify-content: space-around;
 }
