@@ -10,6 +10,7 @@
     "width" 100;
 }
 .btn-primary{
+   
     padding: 18px 35px;
     color: rgb(255, 255, 255);
     font-size: 25px;
@@ -80,6 +81,11 @@ nav li a{
 .banner-content{
     width: 580px;
 }
+.tr{
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
 .text-center{
     text-align: center;
 }
@@ -115,5 +121,20 @@ main{
 .skill{
     padding: 30px;
     border-radius: 5px;
-    box-shadow: 0px 6px 50px 0px rgb(156, 153, 153);
+    box-shadow: 0px 6px 50px 0px rgb(244, 175, 175);
+}
+.resume-container{
+    display: flex;
+    gap: 35px;
+}
+.experience-subtitle{
+    font-size: 20px;
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+.experience-description , .experience-subtitle{
+    color:rgba(117, 117, 117, 1)
+}
+.resume hr{
+    margin: 20px auto;
 }
